@@ -33,7 +33,7 @@ cd <project-folder>
 ```
 
 
-## Create a .env file and add your Gemini API key:
+ Create a .env file and add your Gemini API key:
 
 ```bash
 GOOGLE_API_KEY=your_api_key_here
