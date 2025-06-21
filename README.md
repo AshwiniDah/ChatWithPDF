@@ -2,7 +2,8 @@
 
 This is a simple chatbot app that lets you chat with PDFs. It uses Google’s Gemini API for smart answers and FAISS for fast searching through PDF content. You can upload your own PDFs or load files from a local folder.
 
-🚀 What It Does
+🚀 What It Does:
+
 Reads and combines text from PDF files (uploaded or from a folder).
 Breaks the text into small chunks so it's easy to search.
 Converts the text chunks into embeddings using GoogleGenerativeAIEmbeddings.
@@ -10,6 +11,7 @@ Stores these embeddings using FAISS, a fast vector search engine.
 Uses Gemini to answer questions based on the text inside your PDFs.
 
 You can ask questions like:
+
 👉 "What is mentioned about GST?"
 👉 "Summarize this document"
 and it will reply smartly using the content inside your PDFs!
@@ -39,18 +41,18 @@ cd <project-folder>
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-## Install the required packages
+ Install the required packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the app
+ Run the app
 ```bash
 streamlit run main.py
 ```
 
-## 📁 Folder Structure
+ 📁 Folder Structure
 ```bash
 📂 your_project/
 ├── main.py             # Streamlit app
@@ -76,7 +78,7 @@ Make sure .env contains a valid GOOGLE_API_KEY.
 🙋‍♀️ Example Usage
 Place a few PDFs in the pdfs/ folder.
 
-## Run the app:
+ Run the app:
 ```bash
 streamlit run main.py
 ```
