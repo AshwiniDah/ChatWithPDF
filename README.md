@@ -42,32 +42,27 @@ cd <project-folder>
 
 Create a .env file and add your Gemini API key:
 
-env
-Copy
-Edit
+```bash
 GOOGLE_API_KEY=your_api_key_here
+
 Install the required packages
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-Run the app
 
-bash
-Copy
-Edit
+Run the app
+```bash
 streamlit run main.py
+
 📁 Folder Structure
-bash
-Copy
-Edit
+```bash
 📂 your_project/
 ├── main.py             # Streamlit app
 ├── pdfs/               # Folder to store local PDF files
 ├── faiss_index/        # FAISS index directory (auto-created)
 ├── .env                # API key file
 └── README.md           # Project description
+
 💡 Features
 Upload multiple PDF files
 
@@ -92,10 +87,7 @@ Make sure .env contains a valid GOOGLE_API_KEY.
 Place a few PDFs in the pdfs/ folder.
 
 Run the app:
-
-bash
-Copy
-Edit
+```bash
 streamlit run main.py
 Ask a question like:
 
