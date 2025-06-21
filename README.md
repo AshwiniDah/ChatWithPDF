@@ -1,4 +1,4 @@
-#📚 PDF Chatbot using Gemini + FAISS
+# 📚 PDF Chatbot using Gemini + FAISS
 
 This is a simple chatbot app that lets you chat with PDFs. It uses Google’s Gemini API for smart answers and FAISS for fast searching through PDF content. You can upload your own PDFs or load files from a local folder.
 
