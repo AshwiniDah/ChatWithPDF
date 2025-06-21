@@ -30,21 +30,25 @@ Clone the repo:
 ```bash
 git clone <your-repo-url>
 cd <project-folder>
+```
 
 
 ## Create a .env file and add your Gemini API key:
 
 ```bash
 GOOGLE_API_KEY=your_api_key_here
+```
 
 ## Install the required packages
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Run the app
 ```bash
 streamlit run main.py
+```
 
 ## 📁 Folder Structure
 ```bash
@@ -54,6 +58,7 @@ streamlit run main.py
 ├── faiss_index/        # FAISS index directory (auto-created)
 ├── .env                # API key file
 └── README.md           # Project description
+```
 
 💡 Features
 Upload multiple PDF files
@@ -74,6 +79,7 @@ Place a few PDFs in the pdfs/ folder.
 ## Run the app:
 ```bash
 streamlit run main.py
+```
 
 ## Ask a question like:
 What is the conclusion of the report?
